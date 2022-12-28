@@ -5,6 +5,7 @@ int main()
     scanf("%f%f",&a,&b);
     c=a+b;
     d=a-b;
-     printf("%.0f %.0f",c,d);
+     printf("%.0f %.0f
+",c,d);
     printf("%.1f %.1f",c,d);
 }
