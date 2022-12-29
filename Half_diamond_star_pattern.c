@@ -28,5 +28,5 @@ int main()
     else
     {
         printf("The pattern is not possible");
-     }
+}
 }
