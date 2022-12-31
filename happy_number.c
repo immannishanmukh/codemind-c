@@ -10,7 +10,7 @@ int isHappyNumber(int num){
 }     
 int main()    
 {    
-    int num;
+    int num ; 
     scanf("%d",&num);
     int result = num;    
     while(result != 1 && result != 4)
