@@ -1,25 +1,25 @@
 #include<stdio.h>
-
+#include<math.h>
 int main()
 {
     int n;
     scanf("%d",&n);
     for(int i=1;i<=n;i++)
     {
-        
-        for(int j=1;j<=n-i;j++)
+        int j;
+        for(j=1;j<=n-i;j++)
         {
             printf(" ");
         }
-        for(int j=1;j<=n;j++)
+        for(;j<n+i;j++)
         {
-            if(i==1||i==n||j==1||j==n)
+            if(j==n)
             {
-                printf("*");
+                printf("0");
             }
             else
             {
-                printf(" ");
+                printf("%d",abs(j-n));
             }
         }
         printf("
